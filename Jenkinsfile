@@ -4,6 +4,7 @@ podTemplate(label: label) {
     node(label) {
         stage('Run shell') {
             sh 'echo hello world'
+	    cat test
         }
     }
 }
